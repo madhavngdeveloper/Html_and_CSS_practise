@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration_forms</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <style>
+        #register_forms{
+            background:linear-gradient(45deg,black,darkred);
+            text-align: center;
+            color: white;
+            width: 300px;
+            margin: auto;
+        
+        }
+        #register_forms article{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+        input[type]{
+            font-size: 15px;
+        }
+        input[type=submit]{
+            background: linear-gradient(45deg,black,yellow);
+            color:white;
+            padding:5px 50px;
+            margin:10px;
+            border-radius: 15px;
+
+
+        }
+       form label{
+           display: block;
+           margin-top:10px
+       }
+            
+       
+        
+        
+    
+    </style>
+</head>
+<body>
+    
+    <section id=register_forms>
+        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+        <article>
+                login here
+        </article>
+        <form>
+            <div>
+                <label for=uname>User_Name</label>
+                <input type=text name=uname >
+            </div>
+            <div>
+                <label for=email>Email</label>
+                <input type=email name=email >
+            </div>
+            <div>
+                <label for=password>Password</label>
+                <input type=password name=password >
+            </div>
+            <div>
+                <label for=mobile>mobile</label>
+                <input type=text name=mobile >
+            </div>
+            <div>
+                <label for=Designation>Designation</label>
+                <select style="font-size:15px;">
+                    <option>select Designation</option>
+                    <option>Business_Analyst</option>
+                    <option>photographer</option>
+                    <option>ui_developer</option>
+
+
+
+                </select>
+
+            </div>
+            <div>
+                
+                <input type=submit value="register" >
+            </div>    
+            
+            
+            
+        </form>
+    </section>
+</body>
+</html>

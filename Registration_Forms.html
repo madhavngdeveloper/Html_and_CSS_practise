@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_Forms</title>
+    <style>
+        #registration_forms{
+            background: linear-gradient(45deg,yellow,red);
+            width: 250px;
+            text-align: center;
+            border-radius: 15px;
+            margin: auto;
+        
+        }
+        #registration_forms article{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+        form input{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section id="registration_forms">
+        <article style="color:black;font-weight: bold;font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;">
+                Register here
+        </article>
+        <form>
+        <div>
+            <label for=uname>User_Name</label>
+            <input type="text"id=uname name="user_name">
+        </div>
+        <div>
+            <label for=pwd>password</label>
+            <input type="password"id=pwd name="user_passord">
+        </div>
+        <div>
+            <label for=email>Email</label>
+            <input type="email"id=email name="user_email">
+        </div>
+        <div>
+            <label for=mob>Mobile</label>
+            <input type="text"id=mob name="user_mob">
+        </div>
+        <div>
+            <label for=des>designation</label>
+            <select style="font-size: 20px;">
+                <option>select designation</option>
+                <option>ui developer</option>
+                <option>ux developer</option>
+                <option>fullstack developer</option>
+            </select>
+            
+        </div>
+        <input  style="margin-top: 10px;
+        background:linear-gradient(45deg,black,darkred);
+        color: cornsilk;
+        border-radius: 15px;
+        padding: 5px 50px 5px 50px;
+        text-align: center;
+        margin-bottom: 10px;
+        "type="submit"value=register>
+    </form>
+    </section>
+
+</body>
+
+</html>

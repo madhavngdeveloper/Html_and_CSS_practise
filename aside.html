@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aside_tag</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .sidebar{
+            width: 200px;
+            background:linear-gradient(45deg,green,yellow,red);
+            height: 100vh;
+            text-align: center;
+            box-shadow: 0 5px 10px black;
+            padding: 10px;
+        }
+        .sidebar img {
+            width: 120px;
+            height: 120px;
+            border-radius:60px;
+            margin: auto;
+            border:5px solid black;
+            display: inline-block;
+        }
+        aside a{
+            text-decoration: none;
+            display: block;
+            font-size: 20px;
+            padding:15px;
+        }
+         .sidebar a:hover
+         {
+            box-shadow: 0px 0px 10px green;
+            text-transform: uppercase;
+            border-radius: 15px;
+            background-color: black;
+            color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <aside class=sidebar>
+        <img src="IMAGES/8.jpg"alt=""><br>
+        <a href="#">HOME</a>
+        <a href="#">Services</a>
+        <a href="#">Contact us</a>
+        <a href="#">Courses</a>
+        <a href="#">Faculty</a>
+    </aside>
+</body>
+</html>
